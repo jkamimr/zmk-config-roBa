@@ -10,8 +10,8 @@
 
 &trackball {
     // automouse-layer = <4>;
-
-    scroll-layers = <5>;
+    pointer-layers = <4>;  /* レイヤー4 (MOUSE) にいる時だけカーソル移動を許可 */
+    scroll-layers = <5>;   /* レイヤー5 (SCROLL) にいる時だけスクロールを許可 */
 
     // arrows {
     //     layers = <3>;
