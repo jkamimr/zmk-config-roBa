@@ -12,7 +12,6 @@
     // automouse-layer = <4>;
     // レイヤー4がアクティブな時のみカーソル操作を通す設定
 
-    input-processors = <&zip_layer_guard 4>;
     scroll-layers = <5>;   /* レイヤー5 (SCROLL) にいる時だけスクロールを許可 */
     // arrows {
     //     layers = <3>;
