@@ -106,10 +106,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W      &to_layer_0 E      &to_layer_0 R      &to_layer_0 T                           &to_layer_0 Y  &kp LA(RIGHT)       &to_layer_0 I  &to_layer_0 O    &mo 5
-&to_layer_0 A  &to_layer_0 S      &to_layer_0 D      &to_layer_0 F      &to_layer_0 G  &trans        &kp LC(C)  &to_layer_0 H  &kp LA(LEFT_ARROW)  &mkp MB1       &mkp MB2         &trans
-&to_layer_0 Z  &to_layer_0 LG(X)  &to_layer_0 LG(C)  &to_layer_0 LG(V)  &to_layer_0 B  &trans        &kp LC(V)  &to_layer_0 N  &to_layer_0 M       &mkp MB3       &to_layer_0 DOT  &trans
-&trans         &trans             &trans             &mkp MB4           &mkp MB5       &mkp MB3      &trans     &trans                                                             &trans
+&trans  &trans     &trans     &trans     &trans                             &trans  &kp LA(RIGHT)       &trans    &trans    &trans
+&trans  &trans     &trans     &trans     &trans    &trans        &kp LC(C)  &trans  &kp LA(LEFT_ARROW)  &mkp MB1  &mkp MB2  &trans
+&trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &trans        &kp LC(V)  &trans  &trans              &mkp MB3  &trans    &trans
+&trans  &trans     &trans     &mkp MB4   &mkp MB5  &mkp MB3      &trans     &trans                                          &trans
             >;
         };
 
