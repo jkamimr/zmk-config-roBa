@@ -11,8 +11,10 @@
 &trackball {
     // automouse-layer = <4>;
 
-    pointer-layers = <4>;  /* レイヤー4 (MOUSE) にいる時だけカーソル移動を許可 */
+    // レイヤー4がアクティブな時のみカーソル操作を通す設定
+    input-processors = <&zip_layer_guard 4>;
     scroll-layers = <5>;   /* レイヤー5 (SCROLL) にいる時だけスクロールを許可 */
+
     // arrows {
     //     layers = <3>;
     //     bindings =
